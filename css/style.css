@@ -1,0 +1,258 @@
+﻿
+/*Navegação*/
+
+.navbar
+{
+    margin-bottom: 10px;
+}
+
+.navbar-collapse
+{
+}
+
+.navbar-default
+{
+    background-image: none;
+    border-radius: 0px;
+    box-shadow: none;
+    border-bottom-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+    .navbar-default .navbar-nav > li > a
+    {
+        color: #1B5771;
+    }
+
+    .navbar-default .navbar-nav > li:hover
+    {
+        color: white;
+        background-color: orange;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover
+    {
+        color: white;
+    }
+
+    .navbar-default .navbar-nav > li > a
+    {
+        font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+        letter-spacing: 0.00em;
+        font-size: 25px;
+        line-height: 4.8rem;
+    }
+
+#current-link
+{
+    font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+body, .navbar-default
+{
+    /*background-color:#FFFCC4*/
+    background-color: #ffffff;
+}
+
+.cabecalho
+{
+    background-color: #FF3800;
+    height: 300px;
+}
+
+.cabecalho-esquerda
+{
+    height: 100%;
+    padding-top: 120px;
+}
+
+.cabecalho-direita
+{
+    height: 100%;
+    padding-top: 120px;
+}
+
+/*Slide*/
+
+#slide1, #slide2, #slide3, #slide4, #slide5
+{
+    background-color: #FF3800;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+    #slide1 h1, #slide2 h1, #slide3 h1, #slide4 h1, #slide5 h1
+    {
+        font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+        letter-spacing: 0.00em;
+        font-size: 45px;
+        line-height: 4.8rem;
+        color: #ffffff;
+    }
+
+    #slide1 h2, #slide2 h2, #slide3 h2, #slide4 h2, #slide5 h2
+    {
+        font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+        letter-spacing: 0.00em;
+        font-size: 20px;
+        line-height: 4.8rem;
+    }
+
+        #slide1 h2 a, #slide2 h2 a, #slide3 h2 a, #slide4 h2 a, #slide5 h2 a
+        {
+            text-decoration: none;
+            color: #ffffff;
+            float: right;
+        }
+
+#slideshow
+{
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+ul.bjqs
+{
+    display: block;
+}
+
+.bjqs-slide
+{
+    width: 690px !important;
+}
+
+.bjqs, .bjqs-slide
+{
+    height: 300px !important;
+}
+
+#btn-anterior, #btn-proximo
+{
+    display: none;
+}
+
+#img-esquerda, #img-direita
+{
+    cursor: pointer;
+}
+
+.marcacao
+{
+    border: 2px solid gray;
+    height: 100px;
+}
+
+/*Tiles*/
+.live-tile
+{
+    width: 85px;
+    height: 85px;
+    margin: 2px;
+}
+
+.live-tile-double
+{
+    width: 174px;
+    height: 174px;
+}
+
+.live-tile-double-large
+{
+    width: 174px;
+}
+
+/*Mosaic*/
+
+.list-tile
+{
+    width: 174px;
+    height: 174px;
+    margin: 2px;
+}
+
+.tile-title
+{
+    background-color: gray !important;
+    opacity: 0.7;
+    color: white;
+    width: 100% !important;
+}
+
+#esquerda-4
+{
+    width: 174px;
+    height: 174px;
+}
+
+
+.flip-1-front
+{
+    background-color: #1B5771 !important;
+}
+
+.flip-1-back
+{
+    background-color: #FF3800 !important;
+}
+
+.flip-2-front
+{
+    background-color: #1B5771 !important;
+}
+
+.flip-2-back
+{
+    background-color: #FF3800 !important;
+}
+
+.flip-3-front
+{
+    background-color: #1B5771 !important;
+}
+
+.flip-3-back
+{
+    background-color: #FF3800 !important;
+}
+
+.flip-4-front
+{
+    background-color: #1B5771 !important;
+}
+
+.flip-4-back
+{
+    background-color: #FF3800 !important;
+}
+
+
+
+
+
+/*Rodapé*/
+.rodape
+{
+    background-color: #1B5771;
+    margin-bottom: 0px;
+    height: 100px;
+}
+
+    .rodape h1
+    {
+        font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+        letter-spacing: 0.00em;
+        font-size: 12px;
+        line-height: 4.8rem;
+        color: #ffffff;
+        text-align: center;
+    }
+
+.rodape-esquerda, .rodape-direita, .rodape-centro
+{
+    height: 100%;
+}
