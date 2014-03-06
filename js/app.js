@@ -26,16 +26,18 @@ $(document).ready(function () {
     });
 
     $("#esquerda-1").liveTile({ mode: 'flip', initDelay: 500 });
-    $("#esquerda-2").liveTile({ mode: 'flip', initDelay: 500 });
-    $("#esquerda-3").liveTile({ mode: 'flip', initDelay: 500 });
+    $("#esquerda-2").liveTile({ mode: 'slide', initDelay: 500 });
+    $("#esquerda-3").liveTile({ mode: 'flip'});
     $("#esquerda-4").liveTile();
 
     
 
-    $("#direita-1").liveTile({ mode: 'flip', initDelay: 500 });
-    $("#direita-2").liveTile({ mode: 'flip', initDelay: 500 });
-    $("#direita-3").liveTile({ mode: 'flip', initDelay: 500 });
-    $("#direita-4").liveTile({ mode: 'flip', initDelay: 500 });
+    $("#direita-1").liveTile({ mode: 'flip'});
+    $("#direita-2").liveTile({ mode: 'slide'});
+    $("#direita-3").liveTile({ mode: 'flip', initDelay: 400 });
+    $("#direita-4").liveTile({ mode: 'flip', initDelay: 200 });
+    $("#direita-5").liveTile({ mode: 'slide', initDelay: 500 });
+    $("#direita-6").liveTile({ mode: 'slide', initDelay: 100 });
 
    
 

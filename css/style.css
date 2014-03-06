@@ -144,7 +144,6 @@ ul.bjqs
 .marcacao
 {
     border: 2px solid gray;
-    height: 100px;
 }
 
 /*Tiles*/
@@ -192,42 +191,42 @@ ul.bjqs
 
 .flip-1-front
 {
-    background-color: #1B5771 !important;
+    background-color: #FF1D77 !important;
 }
 
 .flip-1-back
 {
-    background-color: #FF3800 !important;
+    background-color: #1F0068 !important;
 }
 
 .flip-2-front
 {
-    background-color: #1B5771 !important;
+    background-color: #FF1D77 !important;
 }
 
 .flip-2-back
 {
-    background-color: #FF3800 !important;
+    background-color: #1F0068 !important;
 }
 
 .flip-3-front
 {
-    background-color: #1B5771 !important;
+    background-color: #FF1D77 !important;
 }
 
 .flip-3-back
 {
-    background-color: #FF3800 !important;
+    background-color: #1F0068 !important;
 }
 
 .flip-4-front
 {
-    background-color: #1B5771 !important;
+    background-color: #FF1D77 !important;
 }
 
 .flip-4-back
 {
-    background-color: #FF3800 !important;
+    background-color: #1F0068 !important;
 }
 
 
