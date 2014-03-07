@@ -26,7 +26,7 @@ $(document).ready(function () {
     });
 
     $("#esquerda-1").liveTile({ mode: 'flip', initDelay: 500 });
-    $("#esquerda-2").liveTile({ mode: 'slide', initDelay: 500 });
+    $("#esquerda-2").liveTile();
     $("#esquerda-3").liveTile({ mode: 'flip'});
     $("#esquerda-4").liveTile();
 

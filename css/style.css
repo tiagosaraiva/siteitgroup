@@ -255,3 +255,22 @@ ul.bjqs
 {
     height: 100%;
 }
+
+
+
+/*Paragrafo*/
+.paragrafo
+{
+    font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.00em;
+    font-size: 20px;
+    line-height: 4.8rem;
+    text-align:justify
+}
+.titulo-paragrafo
+{
+    font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+    letter-spacing: 0.00em;
+    font-size: 30px;
+    line-height: 4.8rem;
+}
