@@ -199,8 +199,7 @@
 		},
 
 		scrollTo: function(target, callback) {
-		    var offset = $(target).offset().top;
-		    //var offset = ($(target).offset().top)-78;
+			var offset = $(target).offset().top;
 
 			$('html, body').animate({
 				scrollTop: offset
