@@ -2,7 +2,7 @@
 
 .navbar-default
 {
-    background-color: #2B3A42;
+    background-color: #f5f5f5;
     border: none;
 }
 
@@ -14,7 +14,7 @@
     .navbar-default .navbar-nav > li > a
     {
         font-family: "Gafata";
-        color: white;
+        color: #FF530D;
     }
 
 .current
