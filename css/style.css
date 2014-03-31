@@ -35,7 +35,7 @@
 
 body
 {
-    background-color: red;
+    background-color: #3498DB;
 }
 
 .info
@@ -79,6 +79,7 @@ body
     color: #0C273D;
 }
 
+
 .down
 {
     padding-top: 5.0vh;
@@ -87,7 +88,7 @@ body
 .section
 {
     min-height: 500px;
-    padding-top: 100px;
+    padding-top: 60px;
     text-align: center;
 }
 
@@ -113,8 +114,19 @@ body
 
 #section-5
 {
-    background-color: #FFFEF1;
+    background-color: #3498DB;
 }
+#section-6
+{
+    background-color: #FFFEF1
+}
+
+#mapa
+{
+    height:70%;
+    width:70%
+}
+
 
 
 .carousel-control.right
