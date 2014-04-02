@@ -4,7 +4,7 @@ $(document).ready(function () {
         $('#formulario-contato').on('submit', function (e) {
             e.preventDefault();
             $.ajax({
-                url: 'http://localhost:3999/api/contact', //this is the submit URL
+                url: 'http://itgroup-sitecontact.azurewebsites.net/api/contact', //this is the submit URL
                 type: 'POST', //or POST
                 data: $('#formulario-contato').serialize(),
                 success: function (data) {
